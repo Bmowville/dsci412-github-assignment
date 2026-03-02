@@ -1,0 +1,55 @@
+---
+title: "DSCI 412 Weekly Learning Summary"
+author: "Bryan Mowrey"
+output: html_document
+---
+
+# DSCI 412 Weekly Learning Summary
+
+## Week 1 | Predictive Modeling and Processes
+
+1. I learned the basic data science process, including how a project moves from defining the problem to preparing data, building a model, and evaluating results. That helped me see that modeling is only one part of the full workflow.
+
+2. I also learned how to use RMarkdown and how to load and export data in R. This was important because it set up the workflow I used later for the course assignments.
+
+## Week 2 | Data Exploration
+
+3. I learned how summary statistics help describe a dataset before modeling begins. Measures like mean, median, spread, and counts made it easier to understand the data structure.
+
+4. I also learned how visualization, missing value checks, and transformation improve exploratory data analysis. This showed me that cleaning and exploring the data can affect the quality of the final model.
+
+## Week 3 | Linear Regression
+
+5. I learned how linear regression models the relationship between predictors and a numeric response. This gave me a foundation for understanding how changes in predictors relate to changes in an outcome.
+
+6. I also learned that linear regression has assumptions that need to be checked, such as linearity, constant variance, and normal errors. That made it clear that a model is not just about getting output, but also about checking whether the method fits the data.
+
+## Week 4 | Classification
+
+7. I learned how classification differs from regression because the goal is to predict categories instead of continuous values. Logistic regression was the main method used to model class probabilities.
+
+8. I also learned how to evaluate classification models using measures like accuracy, precision, and recall. This helped me understand that the best metric depends on the type of mistake that matters most.
+
+## Week 5 | Generalized Linear Models
+
+9. I learned that generalized linear models extend linear regression to handle response variables that do not fit the normal regression setup. This made it easier to see why different model families are needed for different kinds of data.
+
+10. I also learned about Poisson and Gamma regression and when each is useful. Poisson regression fits count data, while Gamma regression is more useful for positive skewed outcomes.
+
+## Week 6 | Tree Based Models
+
+11. I learned how decision trees split data into smaller groups using predictor values. I liked that tree models are more visual and easier to explain than some other methods.
+
+12. I also learned how random forests and gradient boosting improve on a single tree by combining many trees. This showed me the tradeoff between stronger predictive power and lower interpretability.
+
+## Week 7 | Unsupervised Methods
+
+13. I learned how k-means clustering groups observations based on similarity when there is no labeled response variable. This was useful for understanding customer segmentation and other grouping problems.
+
+14. I also learned that cluster analysis depends on choosing a reasonable number of clusters and then interpreting what each group means. This made unsupervised learning feel more practical and business focused.
+
+## Week 8 | Delivering Results
+
+15. I learned that documentation and presentation are a major part of data science because a good model still has to be explained clearly to other people. This connected well with the way we had to interpret results in the assignments.
+
+16. I also learned more about Git and GitHub and how they help manage files, track changes, and share work. This week helped connect class work to a tool that is also useful in real projects.
